@@ -1,0 +1,26 @@
+.livro button {
+  border: none;
+  outline: none; 
+  background: black;
+  width: 2em;
+  height: 2em;
+  color: white;
+  margin-top: 6px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+  
+.livro button:active {
+  transform: scale(1.1); 
+  background-color: white;
+  color: black;
+}
+  
+@media screen and (max-width: 768px) {
+  .livro button {
+    margin-top: 1em;
+  }
+}
+  

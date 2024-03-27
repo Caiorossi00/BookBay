@@ -1,0 +1,65 @@
+#livros-container {
+  display: flex;
+  gap: 2em; 
+  flex-wrap: wrap;
+  margin-right: 1em;
+  justify-content: center;
+  scrollbar-width: thin; 
+  margin: 0 5em;
+  margin-top: 2em;
+}
+
+.livro {
+  display: flex;
+  flex-direction: column;
+  width: 9em;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.livro h1 {
+  font-size: 15px;
+  color: #212B35;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: fit-content;
+}
+
+.livro p {
+  font-size: 13px;
+  margin: 0; 
+  color: #c2cdd4;
+  margin-top: 3px;
+  margin-left: 1em;
+  width: fit-content;
+  margin-right: 1em;
+}
+
+.livro img {
+  width: 8em;
+  height: 12em;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  #livros-container {
+    margin:0 1em;
+    margin-top: 12em;
+  }
+  
+  .livro {
+    width: calc(50% - 1em); 
+  }
+
+  .livro img {
+    width: 8em;
+    height: 12em;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+    margin-left: 8px;
+  }
+}
