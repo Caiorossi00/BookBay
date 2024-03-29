@@ -5,21 +5,21 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/31Y33PweWWS._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "1984",
     author: "George Orwell",
     price: "R$18,00",
     imageUrl: "https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "A Arte da Guerra: Edição Completa",
     author: "Sun Tzu",
     price: "R$12,00",
     imageUrl: "https://m.media-amazon.com/images/I/51Fe45NGwkL._SY466_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "A Desobediência Civil",
@@ -27,14 +27,14 @@ const bookList = [
     price: "R$8,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41myzx6BxJL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "A Ética da Liberdade",
     author: "Murray Rothbard",
     price: "R$42,00",
     imageUrl: "https://m.media-amazon.com/images/I/71S2v4hDjBL._SY466_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "A Identidade e Diferença",
@@ -42,7 +42,7 @@ const bookList = [
     price: "R$5,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51b00BQ+hvL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "A Metamorfose, Cia das Letras",
@@ -50,7 +50,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41GSDX15NYL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "A Metamorfose, Planeta",
@@ -58,14 +58,14 @@ const bookList = [
     price: "R$22,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/516qKNlle4L._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "A Metamorfose, Antofágica",
     author: "Franz Kafka",
     price: "R$32,00",
     imageUrl: "https://m.media-amazon.com/images/I/71NLKLEEHvL._UX250_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "A Miscelânea de Esportes, Jogos e Ócio de Schott",
@@ -73,7 +73,7 @@ const bookList = [
     price: "R$10,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41QmTO1wXQL._SY445_SX342_.jpg",
-    category: "Outros",
+    disponivel: "sim",
   },
   {
     title: "A Odisseia",
@@ -81,7 +81,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://http2.mlstatic.com/D_NQ_NP_779315-MLU50499477326_062022-O.webp",
-    category: "Aventura",
+    disponivel: "sim",
   },
   {
     title: "A Relíquia",
@@ -89,14 +89,14 @@ const bookList = [
     price: "R$6,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/31UZMI03KwL._SY445_SX342_.jpg",
-    category: "Romance",
+    disponivel: "sim",
   },
   {
-    title: "A Riqueza das Nações (Compêndio)",
+    title: "A Riqueza das Nações",
     author: "Adam Smith",
     price: "R$12,00",
     imageUrl: "https://m.media-amazon.com/images/I/61BnHMB3PJL._SY466_.jpg",
-    category: "Economia",
+    disponivel: "sim",
   },
   {
     title: "Admirável Mundo Novo",
@@ -104,7 +104,7 @@ const bookList = [
     price: "R$24,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41IKTYiymKL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Albert Camus: Primeiros Cadernos",
@@ -112,7 +112,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_6ec68d86635250e5958cdb6575134e55294639c4.png",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Bioética, o Que é, Como Se Faz?",
@@ -120,7 +120,7 @@ const bookList = [
     price: "R$4,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/31at1mVv4EL._SX342_SY445_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Black Hole",
@@ -128,23 +128,23 @@ const bookList = [
     price: "R$44,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/4143nh4iZsL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Breve História de Quase Tudo",
     author: "Bill Bryson",
-    price: "R$24,00",
+    price: "xx,xx",
     imageUrl:
       "https://m.media-amazon.com/images/I/31J-8UEp5OL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "não",
   },
   {
-    title: "Contos - Clarice Lispector",
+    title: "Contos Clarice Lispector",
     author: "Clarice Lispector",
     price: "R$69,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61I4foVI0zL._SY445_SX342_.jpg",
-    category: "Contos",
+    disponivel: "sim",
   },
   {
     title: "Contos Gauchescos e Lendas do Sul",
@@ -152,7 +152,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://clandestini.org/wp-content/uploads/2020/08/CONTOS_GAUCHESCOS_E_LENDAS_DO_SUL_1257449886P.jpg",
-    category: "Contos",
+    disponivel: "sim",
   },
   {
     title: "Contos Reunidos",
@@ -160,14 +160,14 @@ const bookList = [
     price: "R$43,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51z0+cCThEL._SY445_SX342_.jpg",
-    category: "Contos",
+    disponivel: "sim",
   },
   {
     title: "Copa Loca",
     author: "Jaime de Almeida",
     price: "R$18,00",
     imageUrl: "https://m.media-amazon.com/images/I/71YYEMdZs3L._SY466_.jpg",
-    category: "Outros",
+    disponivel: "sim",
   },
   {
     title: "Crime e Castigo",
@@ -175,14 +175,14 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://images.tcdn.com.br/img/img_prod/980922/crime_e_castigo_edicao_de_bolso_1043_1_08aa7936095d78a6ccc64c330b583e2a.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Crime e Castigo Volume 2",
     author: "Fiódor Dostoiévski",
     price: "R$4,00",
     imageUrl: "https://livrista.com.br/thumb/l600/capas/2011/3217/26183.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Demian",
@@ -190,7 +190,7 @@ const bookList = [
     price: "R$28,00",
     imageUrl:
       "https://www.containercultura.com.br/imgs/produtos/25570/images/25570.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Discurso Sobre a Servidão Voluntária",
@@ -198,7 +198,7 @@ const bookList = [
     price: "R$10,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51fqIkgV1KL._SX342_SY445_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Dom Casmurro",
@@ -206,7 +206,7 @@ const bookList = [
     price: "R$6,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51RYiCR51-L._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "não",
   },
   {
     title: "Dom Quixote: Volume 1",
@@ -214,7 +214,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://photos.enjoei.com.br/livro-dom-quixote-volume-1-86931677/800x800/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84NTA3Mzg4L2Y3NWZlYmUyMGY2OGU0MDAwNWRhOGQwM2Q0NDM5NjI5LmpwZw",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Esquerda e Direita",
@@ -222,14 +222,14 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/416hbbZ7b4L._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Fahrenheit 451",
     author: "Ray Bradbury",
     price: "R$28,00",
     imageUrl: "https://m.media-amazon.com/images/I/51tAD6LyZ-L._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Guerra e Paz: Quadrinhos",
@@ -237,7 +237,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/610TWesl4lL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 1995",
@@ -245,7 +245,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_7fc284fe517f14a55ef7ceb82137aa9685ae2145.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 1997",
@@ -253,7 +253,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41WHBtGdNxL._SY445_SX342_.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 2007",
@@ -261,7 +261,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41WJLu+V9hL._SY445_SX342_.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 2009",
@@ -269,7 +269,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51VhUlQoCIL._SY445_SX342_.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 2011",
@@ -277,7 +277,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51n7KBYB4fL._SY445_SX342_.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records 2014",
@@ -285,7 +285,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61VhqmEUBTL._SX342_SY445_.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records Futebol 2010",
@@ -293,7 +293,7 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCVLJbRLOWDakVUw-nC23BDzaDsi7o6r7ZcEeZGXYzmkit-u9_KqR_PHaN2A9WKiX6D_0s1IFdUAkLN9kQpGlNiJjA9KOR&usqp=CAY",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guiness World Records Futebol 2012",
@@ -301,14 +301,14 @@ const bookList = [
     price: "R$13,00",
     imageUrl:
       "https://images-americanas.b2w.io/produtos/3155892120/imagens/recordes-do-futebol-mundial-2012/3155892120_1_xlarge.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Guinness World Records 2010 Games",
     author: "Guiness",
     price: "R$35,00",
     imageUrl: "https://m.media-amazon.com/images/I/31e7-31iNFL.jpg",
-    category: "Guiness Book",
+    disponivel: "sim",
   },
   {
     title: "Hellraiser: Renascido do Inferno",
@@ -316,14 +316,14 @@ const bookList = [
     price: "R$48,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51gRYU9z8CL._SY445_SX342_.jpg",
-    category: "Terror",
+    disponivel: "sim",
   },
   {
     title: "Histórias de Bulka",
     author: "Lev Tolstói",
     price: "R$13,00",
     imageUrl: "https://m.media-amazon.com/images/I/61VFFgP1YzL._SY466_.jpg",
-    category: "Contos",
+    disponivel: "sim",
   },
   {
     title: "Horror em Amityville",
@@ -331,7 +331,7 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://i0.wp.com/resenhandosonhos.com/wp-content/uploads/2015/10/horroremamityville-1.jpg?resize=302%2C450",
-    category: "Terror",
+    disponivel: "sim",
   },
   {
     title: "Ilíada",
@@ -339,7 +339,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://a-static.mlcdn.com.br/800x560/livro-iliada/magazineluiza/228539700/9e11c08aee2cca10e7a147459b39700f.jpg",
-    category: "Aventura",
+    disponivel: "sim",
   },
   {
     title: "Iniciação à História da Filosofia",
@@ -347,15 +347,15 @@ const bookList = [
     price: "R$35,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/418a5YIE8IL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Liga da Justiça: Crise de Identidade",
     author: "Brad Meltzer",
-    price: "R$45,00",
+    price: "R$48,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51UGPKwgLrL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Maus",
@@ -363,14 +363,14 @@ const bookList = [
     price: "R$39,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51jq-ZU9yHL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "não",
   },
   {
     title: "Meditações",
     author: "Marco Aurélio",
     price: "R$13,00",
     imageUrl: "https://m.media-amazon.com/images/I/612B0id4gNL._SY466_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Memórias de Sherlock Holmes",
@@ -378,7 +378,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://higinocultural.com.br/wp-content/uploads/2021/12/Memorias-De-Sherlock-Holmes-Sir-Arthur-Conan-Doyle.jpg",
-    category: "Contos",
+    disponivel: "sim",
   },
   {
     title: "Memórias do Subsolo",
@@ -386,7 +386,7 @@ const bookList = [
     price: "R$22,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51q5HvjLe7L._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Mercenário, Anatomia de um Assassino",
@@ -394,7 +394,7 @@ const bookList = [
     price: "R$12,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61RkHEB78RL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Mindhunter",
@@ -402,7 +402,7 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51xCJlGE0zL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Naruto: O guia secreto do confronto",
@@ -410,7 +410,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51oEo-mSfdL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.20",
@@ -418,7 +418,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51FD+PStD7L._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.22",
@@ -426,14 +426,14 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/81F-3-3LR4L._AC_UF1000,1000_QL80_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.28",
     author: "Masashi Kishimoto",
     price: "R$7,00",
     imageUrl: "https://m.media-amazon.com/images/I/818ozbslx8L._SY466_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.31",
@@ -441,7 +441,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51TBKOCmwtL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.36",
@@ -449,7 +449,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://down-br.img.susercontent.com/file/1b6713faa9dc8e7464cbf9000807d5b7",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.41",
@@ -457,7 +457,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61K5bYqr2KL._AC_UF1000,1000_QL80_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Naruto vol.58",
@@ -465,7 +465,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://rika.vtexassets.com/arquivos/ids/163230-1200-auto?v=635314381891500000&width=1200&height=auto&aspect=true",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "O Auto da Barca do Inferno",
@@ -473,14 +473,14 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41FJuHmglcL._SY445_SX342_.jpg",
-    category: "Aventura",
+    disponivel: "sim",
   },
   {
     title: "O Código Bro",
     author: "Vários",
     price: "R$3,00",
     imageUrl: "https://m.media-amazon.com/images/I/71+IPNUX0dL._SY466_.jpg",
-    category: "Outros",
+    disponivel: "sim",
   },
   {
     title: "O Código da Vinci: Edição Especial",
@@ -488,7 +488,7 @@ const bookList = [
     price: "R$25,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41r5FM0oRdL._SX342_SY445_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Cortiço",
@@ -496,21 +496,21 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/516NYqZI67L._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Diário de Anne Frank",
     author: "Anne Frank",
     price: "R$8,00",
     imageUrl: "https://m.media-amazon.com/images/I/514tKci6HIL._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Escultor",
     author: "Scott McCloud",
     price: "R$49,00",
     imageUrl: "https://m.media-amazon.com/images/I/91P2sM-saJL._SY466_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "O Estrangeiro",
@@ -518,7 +518,7 @@ const bookList = [
     price: "R$19,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61cFRircgZL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Exorcista",
@@ -526,14 +526,14 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51nc43XKzfL._AC_UF1000,1000_QL80_.jpg",
-    category: "Terror",
+    disponivel: "não",
   },
   {
     title: "O Fantasma de Canterville",
     author: "Oscar Wilde",
     price: "R$8,00",
     imageUrl: "https://livralivro.com.br/uploads/book/img/180/8562287180.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Homem que Caiu na Terra",
@@ -541,7 +541,7 @@ const bookList = [
     price: "R$42,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41Anc9NXYML._SX342_SY445_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Homem que Calculava",
@@ -549,7 +549,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.aabbportoalegre.com.br/intranet/modulos/biblioteca/imgs/6819.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Idiota",
@@ -557,7 +557,7 @@ const bookList = [
     price: "R$32,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51EuSosoqJL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Livre Mercado e Seus Inimigos",
@@ -565,7 +565,7 @@ const bookList = [
     price: "R$22,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51y2WDdIQoL._SY445_SX342_.jpg",
-    category: "Economia",
+    disponivel: "sim",
   },
   {
     title: "O Lobo da Estepe",
@@ -573,7 +573,7 @@ const bookList = [
     price: "R$28,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/A1emmdNI8-L._AC_UF1000,1000_QL80_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Livro dos Manuais",
@@ -581,7 +581,7 @@ const bookList = [
     price: "R$7,00",
     imageUrl:
       "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/d187c640f271044e18ed71e457b12dc58e63f155.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "O Príncipe",
@@ -589,14 +589,14 @@ const bookList = [
     price: "R$8,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51fJp6IPGAL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "O Sol é Para Todos",
     author: "Harper Lee",
     price: "R$26,00",
     imageUrl: "https://m.media-amazon.com/images/I/91WKPd60P4L._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O Universo Numa Casca de Noz",
@@ -604,7 +604,7 @@ const bookList = [
     price: "R$25,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/314o1VN4iqL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Os Sofrimentos do Jovem Werther",
@@ -612,7 +612,7 @@ const bookList = [
     price: "R$22,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51SSEeTIXcL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Os Sertões Volume 1 + Volume 2",
@@ -620,7 +620,7 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://cdn.awsli.com.br/300x300/1832/1832888/produto/20186401226140ed57f.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "O que o Governo Fez com o Nosso Dinheiro",
@@ -628,7 +628,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51sstEmjdML._SY445_SX342_.jpg",
-    category: "Economia",
+    disponivel: "sim",
   },
   {
     title: "O Que Se Vê e o Que Não Se Vê",
@@ -636,7 +636,7 @@ const bookList = [
     price: "R$24,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51BuPo24QOL._SY445_SX342_.jpg",
-    category: "Economia",
+    disponivel: "sim",
   },
   {
     title: "One punch man vol.01",
@@ -644,7 +644,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51b1z-rl+zL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "One punch man vol.02",
@@ -652,7 +652,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51oe92OdrVL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "One punch man vol.03",
@@ -660,7 +660,7 @@ const bookList = [
     price: "R$14,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51Bgk-MWqOL._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Por uma Nova Liberdade: O Manifesto Libertário",
@@ -668,21 +668,21 @@ const bookList = [
     price: "R$68,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51f+DXtTN5L._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Seis propostas para o próximo milênio",
     author: "Italo Calvino",
     price: "R$8,00",
     imageUrl: "https://m.media-amazon.com/images/I/71cbh+sY+sL._SY466_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Senhora",
     author: "José de Alencar",
     price: "R$10,00",
     imageUrl: "https://m.media-amazon.com/images/I/91DTtYy0cUL._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Sobre a Vida Feliz",
@@ -690,7 +690,7 @@ const bookList = [
     price: "R$5,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41tROqCfliL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Superman e Batman: Inimigos Públicos",
@@ -698,36 +698,37 @@ const bookList = [
     price: "R$22,00",
     imageUrl:
       "https://a-static.mlcdn.com.br/450x450/superman-batman-inimigos-publicos-colecao-dc-comics-graphic-novels-eaglemoss/estacaodaspalavras/9788583781738/59a066e68dd0a6953638d4ad61e4ac7b.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Superman: Entre a Foice e o Martelo",
     author: "Mark Millar",
     price: "R$35,00",
     imageUrl: "https://m.media-amazon.com/images/I/71POiMelFrL._SY466_.jpg",
+    disponivel: "sim",
   },
   {
     title: "Superman: Terra Um",
     author: "J. Michael Straczynski",
     price: "R$15,00",
     imageUrl: "https://m.media-amazon.com/images/I/81qQAE8-dxL._SY466_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "Textos Básicos de Filosofia",
-    author: "N/A",
-    price: "R$28,00",
+    author: "Danilo Marcondes",
+    price: "R$34,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51y8YEGql1L._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Textos Básicos de Sociologia",
-    author: "N/A",
+    author: "Celso Castro",
     price: "R$28,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51-xZL-AHuL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Textos Cruéis Demais para Serem Lidos Rapidamente",
@@ -735,7 +736,7 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41WSVHqqbkL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "The Last of Us: Sonhos Americanos",
@@ -743,14 +744,14 @@ const bookList = [
     price: "R$50,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/518pNeuW-+L._SY445_SX342_.jpg",
-    category: "HQ",
+    disponivel: "sim",
   },
   {
     title: "The Merchant of Venice",
     author: "William Shakespeare",
     price: "R$15,00",
     imageUrl: "https://m.media-amazon.com/images/I/81sQC6Qi2aL._SY466_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Uma Breve História do Tempo",
@@ -758,7 +759,7 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51FBILW8cWS._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Utilitarismo",
@@ -766,7 +767,7 @@ const bookList = [
     price: "R$12,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/31zMluQNWyL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Vícios Não São Crimes",
@@ -774,7 +775,7 @@ const bookList = [
     price: "R$8,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/31Y3n7jzxVL._SY445_SX342_.jpg",
-    category: "Filosofia",
+    disponivel: "sim",
   },
   {
     title: "Viagens de Gulliver",
@@ -782,14 +783,101 @@ const bookList = [
     price: "R$18,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/51tfozW1xHL._SY445_SX342_.jpg",
-    category: "Ficção",
+    disponivel: "sim",
   },
   {
     title: "Watchmen",
     author: "Alan Moore",
     price: "R$69,00",
     imageUrl: "https://m.media-amazon.com/images/I/81IOAiyRD+L._SY466_.jpg",
-    category: "HQ",
+    disponivel: "sim",
+  },
+  {
+    title: "O Declínio de um Homem",
+    author: "Osamu Dazai",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/81sblL-t2iL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Confissões de uma Máscara",
+    author: "Yukio Mishima",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/81nnYIdpdnL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Grandes Contos",
+    author: "H.P Lovecraft",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/719HCFvTyvL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Medo Clássico Vol.1",
+    author: "H.P Lovecraft",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/61dK-0GVAHL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Medo Clássico Vol.2",
+    author: "H.P Lovecraft",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/81ae17sPluL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Tomie",
+    author: "Junji Ito",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/81QDxVfY65L._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Uzumaki",
+    author: "Junji Ito",
+    price: "xx,xx",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51yF5Itm-9L._SY445_SX342_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Fragmentos do Horror",
+    author: "Junji Ito",
+    price: "xx,xx",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/517+BU8AcvL._SY445_SX342_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Calafrios",
+    author: "Junji Ito",
+    price: "xx,xx",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51H+j1I8b6L._SY445_SX342_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Medo Clássico",
+    author: "Edgar Allan Poe",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/71FMcvWL19L._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Medo Clássico 2",
+    author: "Edgar Allan Poe",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/61ot+NTV4nL._SY466_.jpg",
+    disponivel: "não",
+  },
+  {
+    title: "Grandes Contos",
+    author: "H.P Lovecraft",
+    price: "xx,xx",
+    imageUrl: "https://m.media-amazon.com/images/I/719HCFvTyvL._SY466_.jpg",
+    disponivel: "não",
   },
 ];
 

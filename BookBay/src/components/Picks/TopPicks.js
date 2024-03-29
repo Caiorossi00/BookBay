@@ -3,13 +3,32 @@ import "./TopPicks.css";
 
 const pickedBooks = [
   {
-    titulo: "Watchmen",
-    frase: `"O mundo vai olhar para cima e gritar 'Salvem-nos!'... e eu vou sussurrar 'Não'." Rorschach`,
-    capa: "https://m.media-amazon.com/images/I/81IOAiyRD+L._AC_UF1000,1000_QL80_.jpg",
-    foto: "https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/10/04/764601/20181004165541491942a.jpeg",
-    sinopse: `
-    Uma saga distópica que mergulha em uma América alternativa, onde vigilantes mascarados coexistem com a política global dos anos 1980. Após o assassinato de um ex-herói, uma trama complexa se desenrola, revelando uma conspiração que ameaça o mundo. Os personagens são confrontados com dilemas morais enquanto enfrentam suas próprias jornadas pessoais, explorando temas profundos como moralidade, poder e identidade em uma narrativa densa e multifacetada.
-    `,
+    titulo: "Contos Clarice Lispector",
+    frase: `"Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro."`,
+    capa: "https://m.media-amazon.com/images/I/81oMFht5gGL._SY466_.jpg",
+    foto: "https://outraspalavras.net/wp-content/uploads/2020/12/clarice-lispector-6-1.jpg",
+    sinopse: `Com sua prosa envolvente e penetrante, Lispector explora temas como identidade, solidão, relações familiares e a busca pela felicidade. Através de uma série de histórias cativantes, mergulhamos nas profundezas da alma humana, confrontando nossos medos, desejos e anseios mais profundos. Cada conto é uma jornada única, oferecendo insights fascinantes sobre a complexidade da experiência humana. Uma leitura que desafia e encanta, revelando a genialidade de uma das maiores escritoras da literatura brasileira`,
+  },
+  {
+    titulo: "Admirável Mundo Novo",
+    frase: `"As flores do campo e as paisagens têm um grave defeito: são gratuitas."`,
+    capa: "https://m.media-amazon.com/images/I/61hOp6UFvCL._SY342_.jpg",
+    foto: "https://t.ctcdn.com.br/ivo54iPU0HHvSwiik55nmEjGMcI=/750x422/smart/i297686.jpeg",
+    sinopse: `Aldous Huxley apresenta uma distopia futurista onde a reprodução é controlada e as pessoas são condicionadas desde o nascimento. A chegada do "selvagem" John desafia as normas, expondo as falhas da busca pelo prazer e a falta de liberdade individual. A história mergulha nos dilemas éticos e existenciais, explorando as consequências de uma sociedade excessivamente controlada pelo governo.`,
+  },
+  {
+    titulo: "O Estrangeiro",
+    frase: `"Eu posso não ter certeza sobre o que realmente me interessava, mas eu tinha absoluta certeza sobre o que não interessava."`,
+    capa: "https://m.media-amazon.com/images/I/91Sb5HdDL3L._SY466_.jpg",
+    foto: "https://s26162.pcdn.co/wp-content/uploads/2020/04/81OaUF5PgLL.jpg",
+    sinopse: `A narrativa acompanha a história de Meursault, um homem apático e desapegado das convenções sociais, que se vê envolvido em um crime aparentemente sem motivo. Ao longo da trama, somos levados a refletir sobre a alienação, a falta de sentido da existência e os limites da moralidade. A escrita de Camus é marcada pela simplicidade e pelo existencialismo, explorando questões profundas sobre a natureza humana e a condição do indivíduo na sociedade.`,
+  },
+  {
+    titulo: "O Lobo da Estepe",
+    frase: `"A maioria dos homens não quer nadar antes que o possa fazer. Não é engraçado? Naturalmente, não querem nadar. E, naturalmente não querem pensar: foram criados para viver e não para pensar! Isto mesmo! E quem pensa, quem faz do pensamento sua principal atividade, pode chegar muito longe com isso, mas sem dúvida estará confundindo a terra com água e um dia morrerá afogado."`,
+    capa: "https://m.media-amazon.com/images/I/A1emmdNI8-L._AC_UF1000,1000_QL80_.jpg",
+    foto: "https://i.pinimg.com/736x/8d/e1/85/8de185c1a243e4dc38bd195e6c634a11.jpg",
+    sinopse: `Hermann Hesse mergulha nas profundezas da psique humana por meio das reflexões de um narrador alienado e autodepreciativo. Nesta obra, ele explora temas como o livre-arbítrio, a solidão e a natureza contraditória do ser humano, oferecendo uma análise penetrante da condição humana e das complexidades da existência.`,
   },
   {
     titulo: "Farenheit 451",
@@ -20,9 +39,9 @@ const pickedBooks = [
   },
   {
     titulo: "Memórias do Subsolo",
-    frase: `“O que é melhor, uma felicidade barata ou um sofrimento elevado?”`,
+    frase: `“Observai-vos melhor, senhores, e compreendereis que assim é. Imaginava, para mim mesmo, aventuras e inventava uma vida, para viver ao menos de algum modo. Quantas vezes me aconteceu, por exemplo, ficar ofendido não por um motivo determinado, mas intencionalmente!”`,
     capa: "https://m.media-amazon.com/images/I/81B8n0OCzTL._SY466_.jpg",
-    foto: "https://humanumreview.com/uploads/images/Ale-Oni-Trudni.jpg",
+    foto: "https://i0.wp.com/theimaginativeconservative.org/wp-content/uploads/2020/06/Christ-in-the-Gethsemane-Garden-1.jpg?fit=750%2C425&ssl=1",
     sinopse: `Fiódor Dostoiévski mergulha nas profundezas da psique humana por meio das reflexões de um narrador alienado e autodepreciativo. Nesta obra, ele explora temas como o livre-arbítrio, a solidão e a natureza contraditória do ser humano, oferecendo uma análise penetrante da condição humana e das complexidades da existência.`,
   },
   {
@@ -33,18 +52,27 @@ const pickedBooks = [
     sinopse: `Johann Wolfgang von Goethe narra a paixão arrebatadora de Werther por Charlotte, que é comprometida com outro homem. A história explora os temas do amor não correspondido, angústia existencial e desespero, levando o protagonista a um trágico destino. Esta obra seminal influenciou profundamente o movimento literário do romantismo.`,
   },
   {
+    titulo: "Liga da Justiça: Crise de Identidade",
+    frase: `"Quem se beneficia com a morte de um super herói?"`,
+    capa: "https://m.media-amazon.com/images/I/91zwUt04ALL._SY466_.jpg",
+    foto: "https://images.alphacoders.com/658/658229.jpg",
+    sinopse: `Somos levados a uma jornada épica pelo universo dos super-heróis da DC Comics. Nesta graphic novel emocionante, uma tragédia abala a comunidade heroica, levando à revelação de segredos sombrios e traições chocantes. Enquanto a Liga da Justiça luta para enfrentar um inimigo misterioso, os heróis são confrontados com dilemas morais e questões de lealdade que ameaçam despedaçar sua união. Com reviravoltas inesperadas e momentos de grande impacto, esta história nos leva a questionar o verdadeiro significado do heroísmo e da justiça.`,
+  },
+  {
+    titulo: "Watchmen",
+    frase: `"O mundo vai olhar para cima e gritar 'Salvem-nos!'... e eu vou sussurrar 'Não'." Rorschach`,
+    capa: "https://m.media-amazon.com/images/I/81IOAiyRD+L._AC_UF1000,1000_QL80_.jpg",
+    foto: "https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/10/04/764601/20181004165541491942a.jpeg",
+    sinopse: `
+    Uma saga distópica que mergulha em uma América alternativa, onde vigilantes mascarados coexistem com a política global dos anos 1980. Após o assassinato de um ex-herói, uma trama complexa se desenrola, revelando uma conspiração que ameaça o mundo. Os personagens são confrontados com dilemas morais enquanto enfrentam suas próprias jornadas pessoais, explorando temas profundos como moralidade, poder e identidade em uma narrativa densa e multifacetada.
+    `,
+  },
+  {
     titulo: "O Escultor",
     frase: `“Paixão e dedicação são as chaves para desbloquear a grandeza”`,
     capa: "https://m.media-amazon.com/images/I/91P2sM-saJL._SY466_.jpg",
     foto: "https://media.wnyc.org/i/800/0/c/85/1/Sculptor-FINAL-98_MAIN.jpg",
     sinopse: `Scott McCloudconta a história de David Smith, um escultor talentoso que faz um pacto com a Morte para ter o poder de criar qualquer coisa com suas mãos, mas com a condição de ter apenas 200 dias de vida. A narrativa aborda temas como arte, mortalidade, amor e redenção, em uma jornada emocionante e reflexiva.`,
-  },
-  {
-    titulo: "Black Hole",
-    frase: `"O universo é um lugar muito grande, cheio de tudo o que você pode imaginar e muito mais além. E no meio disso tudo, não estamos sozinhos. Somos apenas um pequeno pedaço de um grande quebra-cabeça."`,
-    capa: "https://m.media-amazon.com/images/I/61WeDSijomL._AC_UF1000,1000_QL80_.jpg",
-    foto: "https://vitralizado.com/wp-content/uploads/2018/05/BlackHole2B.jpg",
-    sinopse: `Uma graphic novel surreal e perturbadora que se passa em Seattle nos anos 1970. Quando uma estranha doença sexualmente transmissível começa a se espalhar entre os adolescentes, causando deformidades físicas bizarros, a cidade mergulha no caos. A história segue um grupo de jovens enquanto lidam com seus próprios medos, desejos e alienação, em meio a uma atmosfera sombria e inquietante.`,
   },
 ];
 

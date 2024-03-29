@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import Navbar from "./components/Home/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import TopPicks from "./components/Picks/TopPicks";
-import Bottom from "./components/Bottom/Bottom";
-import Home from "./components/Home/Home";
-import Cart from "./components/Home/Cart/Cart";
-import Footer from "./components/Home/Footer/Footer";
-import DisplayLivros from "./components/Home/DisplayLivros/DisplayLivros";
+import Cart from "./components/Cart/Cart";
+import Footer from "./components/Footer/Footer";
+import DisplayLivros from "./components/DisplayLivros/DisplayLivros";
 
 const App = () => {
   const [carrinho, setCarrinho] = useState({});
@@ -48,14 +46,12 @@ const App = () => {
         return <DisplayLivros adicionarAoCarrinho={adicionarAoCarrinho} />;
       case "topPicks":
         return <TopPicks />;
-      case "bottom":
-        return <Bottom />;
       case "cart":
         return (
           <Cart carrinho={carrinho} removerItemCarrinho={removerItemCarrinho} />
         );
       default:
-        return <Home />;
+        return <DisplayLivros />;
     }
   };
 

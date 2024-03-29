@@ -9,14 +9,12 @@ const Cart = ({ carrinho, removerItemCarrinho }) => {
     .toFixed(2);
 
   const handleComprar = () => {
-    const itensCarrinho = Object.values(carrinho)
-      .map((item) => {
-        return `${item.title} - R$${item.price.slice(2)}`;
-      })
-      .join("%0A");
+    const itensCarrinho = Object.values(carrinho).map((item) => {
+      return `${item.title} - R$${item.price.slice(2)}`;
+    });
 
     const mensagem = encodeURIComponent(
-      `Estou interessado nos seguintes livros:%0A${itensCarrinho}`
+      `Estou interessado nos seguintes livros: ${itensCarrinho}`
     );
     const link = `https://wa.me/53984158694/?text=${mensagem}`;
     window.open(link);
@@ -25,7 +23,7 @@ const Cart = ({ carrinho, removerItemCarrinho }) => {
   return (
     <>
       <div className="cart-message">
-        <h1>Your shopping cart</h1>
+        <h1>Seu carrinho:</h1>
       </div>
       <div className="cart-container">
         {Object.values(carrinho).map((item) => (

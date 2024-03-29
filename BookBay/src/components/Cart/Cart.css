@@ -3,8 +3,8 @@
 .cart-message {
     width: fit-content;
     margin-left: 10%;
-    margin-bottom: 1em;
-    font-family: Montserrat, sans-serif;
+    margin-bottom: 3em;
+    font-family: 'Playfair Display', serif; 
     font-size: 10px;
     font-weight: 400;
     cursor: pointer;
@@ -12,7 +12,7 @@
 
 .cart-container {
     width: 80%;
-    height: 60vh;
+    height: 70vh;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
@@ -97,18 +97,18 @@
 }
   
 .buy-button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    font-size: 20px;
-    cursor: pointer;
-    margin-bottom: 5%;
-  }
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
   
 .buy-button:hover {
-    background-color: #333;
-  }
+  background-color: #333;
+}
 
 
 @media screen and (max-width: 768px) {

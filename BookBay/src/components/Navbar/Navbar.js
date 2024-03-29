@@ -15,21 +15,15 @@ const Navbar = ({ setCurrentContent }) => {
     <div>
       <div className="container-nav">
         <div className="logo">
-          <img
-            src="https://www.visionlosangeles.com/images/logo.png"
-            alt="logo"
-          ></img>
+          <h1>BookBay</h1>
         </div>
         <div className="nav-lista">
           <ul>
             <li style={liStyle} onClick={() => setCurrentContent("home")}>
-              Home
+              Todos
             </li>
             <li style={liStyle} onClick={() => setCurrentContent("topPicks")}>
-              Top Picks
-            </li>
-            <li style={liStyle} onClick={() => setCurrentContent("bottom")}>
-              Bottom
+              Destaques
             </li>
             <li style={liStyle} onClick={() => setCurrentContent("cart")}>
               <i className="fas fa-shopping-cart"></i>{" "}

@@ -13,7 +13,7 @@ body {
 
 .container-1, .container-2{
     margin: 0 auto;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     max-width: 100%; 
     overflow: hidden; 
@@ -21,12 +21,12 @@ body {
 }
 
 .container-1 {
-    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, rgb(0, 0, 0) 40%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
 }
 
 .container-2 {
     flex-direction: row-reverse;
-    background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, rgb(0, 0, 0) 40%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
 } 
 
 .esquerda-1 img{
@@ -90,6 +90,8 @@ body {
     margin-top: 3em;
     height: auto; 
     filter: grayscale(100%);
+    margin-left: 15%;
+    margin-top: 10%;
 }
 
 .direita-2 img {
@@ -103,32 +105,6 @@ hr {
 .container-1, .container-2 {
     position: relative;
     overflow: hidden;
-}
-
-@keyframes slideFromLeft {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideFromRight {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-.container-1.slide-in {
-    animation: slideFromLeft 1.5s ease-in;
-}
-
-.container-2.slide-in {
-    animation: slideFromRight 1.5s ease-in;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .container-nav {
     margin-bottom: 2em;
     border-bottom: 1px solid black;
@@ -23,7 +25,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    font-family: 'Playfair Display', serif; 
 }
 
 .logo img {
@@ -53,6 +56,4 @@
     .logo img {
         width: 10em; 
     }
-
 }
-
