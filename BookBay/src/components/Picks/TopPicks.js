@@ -3,13 +3,6 @@ import "./TopPicks.css";
 
 const pickedBooks = [
   {
-    titulo: "Contos Clarice Lispector",
-    frase: `"Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro."`,
-    capa: "https://m.media-amazon.com/images/I/81oMFht5gGL._SY466_.jpg",
-    foto: "https://outraspalavras.net/wp-content/uploads/2020/12/clarice-lispector-6-1.jpg",
-    sinopse: `Com sua prosa envolvente e penetrante, Lispector explora temas como identidade, solidão, relações familiares e a busca pela felicidade. Através de uma série de histórias cativantes, mergulhamos nas profundezas da alma humana, confrontando nossos medos, desejos e anseios mais profundos. Cada conto é uma jornada única, oferecendo insights fascinantes sobre a complexidade da experiência humana. Uma leitura que desafia e encanta, revelando a genialidade de uma das maiores escritoras da literatura brasileira`,
-  },
-  {
     titulo: "Admirável Mundo Novo",
     frase: `"As flores do campo e as paisagens têm um grave defeito: são gratuitas."`,
     capa: "https://m.media-amazon.com/images/I/61hOp6UFvCL._SY342_.jpg",
@@ -31,11 +24,11 @@ const pickedBooks = [
     sinopse: `Hermann Hesse mergulha nas profundezas da psique humana por meio das reflexões de um narrador alienado e autodepreciativo. Nesta obra, ele explora temas como o livre-arbítrio, a solidão e a natureza contraditória do ser humano, oferecendo uma análise penetrante da condição humana e das complexidades da existência.`,
   },
   {
-    titulo: "Farenheit 451",
-    frase: `“Encha seus olhos de admiração. Viva como se fosse cair morto daqui a dez segundos. Veja o mundo. Ele é mais fantástico do que qualquer sonho que se possa produzir nas fábricas.”`,
-    capa: "https://m.media-amazon.com/images/I/41PVVpQf-sL._SY445_SX342_.jpg",
-    foto: "https://miro.medium.com/v2/resize:fit:600/1*XNNRuiQyceFOAXDF3njp4g.jpeg",
-    sinopse: `Ray Bradbury retrata uma sociedade distópica onde os livros são proibidos e queimados pelos bombeiros. Montag, um desses bombeiros, questiona seu papel na destruição do conhecimento e começa a desafiar o status quo. Nessa jornada de autodescoberta, ele enfrenta as consequências de desafiar a autoridade e lutar pela liberdade intelectual.`,
+    titulo: "O Homem que Passeia",
+    frase: `“Quem hoje em dia se dá ao trabalho de subir em uma árvore descalço? De parar e observar as idas e vindas dos pássaros? De brincar nas poças d'água depois que a chuva passou? De devolver uma concha ao mar?”`,
+    capa: "https://m.media-amazon.com/images/I/51MnWr4yTFL._SY445_SX342_.jpg",
+    foto: "https://i0.wp.com/3.bp.blogspot.com/-TuXFmtcazP4/WuTc_Z2EkGI/AAAAAAAAJQU/22MiGXbb2yY4C3jyldblA1HjYiC2-5KbgCLcBGAs/s1600/20180421_162347.jpg?resize=503%2C260&ssl=1",
+    sinopse: `Uma obra que explora o cotidiano e as reflexões de um homem solitário que encontra na caminhada uma forma de conexão com o mundo ao seu redor. Através das suas andanças pelas ruas de uma cidade japonesa, o protagonista encontra pequenos momentos de beleza, encontros fortuitos e reflexões sobre a vida e a passagem do tempo. Com traços delicados e uma narrativa contemplativa, Taniguchi nos convida a refletir sobre a simplicidade e a profundidade da existência humana.`,
   },
   {
     titulo: "Memórias do Subsolo",
@@ -43,6 +36,13 @@ const pickedBooks = [
     capa: "https://m.media-amazon.com/images/I/81B8n0OCzTL._SY466_.jpg",
     foto: "https://i0.wp.com/theimaginativeconservative.org/wp-content/uploads/2020/06/Christ-in-the-Gethsemane-Garden-1.jpg?fit=750%2C425&ssl=1",
     sinopse: `Fiódor Dostoiévski mergulha nas profundezas da psique humana por meio das reflexões de um narrador alienado e autodepreciativo. Nesta obra, ele explora temas como o livre-arbítrio, a solidão e a natureza contraditória do ser humano, oferecendo uma análise penetrante da condição humana e das complexidades da existência.`,
+  },
+  {
+    titulo: "O Sol é Para Todos",
+    frase: `"Coragem é fazer uma coisa mesmo estando derrotado antes de começar e mesmo assim ir até o fim, apesar de tudo."`,
+    capa: "https://m.media-amazon.com/images/I/91WKPd60P4L._SY466_.jpg",
+    foto: "https://cdn.discordapp.com/attachments/1160998442001252543/1224793401501683773/image.png?ex=661ec8be&is=660c53be&hm=a484760d52358497cf6c698698b4c01cea71ac4e5089b653f083a3b281210a8e&",
+    sinopse: `Ambientado na América dos anos 1930. A narrativa, vista pelos olhos da jovem Scout Finch, expõe as complexidades do sistema judicial e preconceitos raciais através do julgamento de um homem negro acusado injustamente. Com sensibilidade, a autora aborda temas como empatia, moralidade e justiça social, criando um retrato marcante da luta contra o preconceito e pela igualdade em uma sociedade dividida.`,
   },
   {
     titulo: "Os sofrimentos do jovem Werther",

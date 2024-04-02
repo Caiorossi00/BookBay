@@ -952,14 +952,6 @@ const bookList = [
     disponivel: "sim",
   },
   {
-    title: "Morri Para Viver",
-    author: "Andressa Urach",
-    price: "R$4,00",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/41gLW+RbITL._SY445_SX342_.jpg",
-    disponivel: "sim",
-  },
-  {
     title: "A arte de ter razão: 38 estratagemas",
     author: "Arthur Schopenhauer",
     price: "R$7,00",
@@ -1008,7 +1000,7 @@ const bookList = [
     disponivel: "sim",
   },
   {
-    title: "O Homem que Passeava",
+    title: "O Homem que Passeia",
     author: "Jiro Taniguchi",
     price: "R$48,00",
     imageUrl:
