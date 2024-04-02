@@ -686,7 +686,7 @@ const bookList = [
   },
   {
     title: "Sobre a Vida Feliz",
-    author: "Sêneca",
+    author: "Santo Agostinho",
     price: "R$5,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41tROqCfliL._SY445_SX342_.jpg",
@@ -793,6 +793,298 @@ const bookList = [
     disponivel: "sim",
   },
   {
+    title: "Elite da Tropa",
+    author: "Luiz Eduardo Soares",
+    price: "R$22,00",
+    imageUrl: "https://m.media-amazon.com/images/I/918AS00M7fL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Elite da Tropa 2",
+    author: "Luiz Eduardo Soares",
+    price: "R$7,00",
+    imageUrl: "https://m.media-amazon.com/images/I/61fSOGQXUjL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Na Barreira do Inferno",
+    author: "Silvia Cintra Franco",
+    price: "R$5,00",
+    imageUrl: "https://m.media-amazon.com/images/I/91YQxttVcML._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Globalização",
+    author: "Fernando Alcoforado",
+    price: "R$4,00",
+    imageUrl:
+      "https://books.google.com.vc/books/content?id=248O2U0emgoC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE738kRdyQ7YqEPiOpijtn18Qu2B4wnrQUZsSBZNKNesSj9NCKUNeRLAL_pHXAztbVpZscUZs4Bf39ahDrpbS6FGtyqVfsTflRdHDxXox65LrXd5nq_5Nrms64oeUBHwtPI9WJ6mJ",
+    disponivel: "sim",
+  },
+  {
+    title: "Não tenha vergonha de ser Bonita",
+    author: "Dr. Rolando Zani",
+    price: "R$4,00",
+    imageUrl: "https://m.media-amazon.com/images/I/51NPKhxX8YL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Os erros fatais do socialismo",
+    author: "F.A Hayek",
+    price: "R$28,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51NLWtvXinL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Assassinato de reputações",
+    author: "Romeu Tuma Junior",
+    price: "R$12,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41jn+yyM32L._AC_UF1000,1000_QL80_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "O Banquete",
+    author: "Platão",
+    price: "R$8,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41pQZn-QpoL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Bruxos e Bruxas",
+    author: "James Patterson",
+    price: "R$9,00",
+    imageUrl: "https://m.media-amazon.com/images/I/61nUygDqxEL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Drogas! Entenda esse Mundo",
+    author: "Gilberto Olivier",
+    price: "R$4,00",
+    imageUrl: "https://i.zst.com.br/thumbs/12/20/33/14366381.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Valente para Todas",
+    author: "Vitor Cafaggi",
+    price: "R$7,00",
+    imageUrl: "https://m.media-amazon.com/images/I/51QxQB5ZcbL._SX550_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "O Menino Maluquinho",
+    author: "Ziraldo",
+    price: "R$12,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51LjfgMU-SL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Os Direitos dos Pais",
+    author: "Tania Zagury",
+    price: "R$4,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41b+Z9QcacL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Sagarana",
+    author: "Guimarães Rosa",
+    price: "R$12,00",
+    imageUrl: "https://m.media-amazon.com/images/I/81-u5WrGvrL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "O Primo Basílio",
+    author: "Eçá de Queirós",
+    price: "R$8,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41+6IixOklL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Volta ao Mundo em 52 histórias",
+    author: "Philip Mistry",
+    price: "R$39,00",
+    imageUrl: "https://m.media-amazon.com/images/I/81d4fLS1uaS._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "A mentalidade Anticapitalista",
+    author: "Ludwig von Mises",
+    price: "R$25,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51wKpFrtIEL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "MacArthur",
+    author: "Sydney L. Mayer",
+    price: "R$5,00",
+    imageUrl:
+      "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/ef1294d435a478d4985e585c6e81ccca315c8535.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "O Documento Holcroft",
+    author: "Robert Ludlum",
+    price: "R$6,00",
+    imageUrl:
+      "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_b074842aaf47ccc12e7cfaa54237dee7b75b8432.png",
+    disponivel: "sim",
+  },
+  {
+    title: "A Ética protestante e o Espírito do Capitalismo",
+    author: "Max Weber",
+    price: "R$22,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51yA6fNKeKS._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Sonho de uma Noite de Verão",
+    author: "William Shakespeare",
+    price: "R$13,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41qaFxnzLeL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Morri Para Viver",
+    author: "Andressa Urach",
+    price: "R$4,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41gLW+RbITL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "A arte de ter razão: 38 estratagemas",
+    author: "Arthur Schopenhauer",
+    price: "R$7,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51Bi4-urSgL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Club Athletico Paulistano",
+    author: "N/A",
+    price: "R$9,00",
+    imageUrl:
+      "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/3512fbc477ed0104b24024f06728023040b7886a.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Legado Olímpico",
+    author: "N/A",
+    price: "R$18,00",
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQovVfxo2gt2I9rzFzbK08aMf1bamK1WCXMoOutlEoT_w&s",
+    disponivel: "sim",
+  },
+  {
+    title: "História da Música Clássica",
+    author: "Ediciones del Prado",
+    price: "R$28,00",
+    imageUrl:
+      "https://down-br.img.susercontent.com/file/sg-11134201-7rbmf-ln1ota2ca9o83a",
+    disponivel: "sim",
+  },
+  {
+    title: "Fronteiras do Desconhecido",
+    author: "Vários Autores",
+    price: "R$9,00",
+    imageUrl:
+      "https://down-br.img.susercontent.com/file/5f1845af5b66c80240bbda8b60365897",
+    disponivel: "sim",
+  },
+  {
+    title: "A Origem das Espécies",
+    author: "Charles Darwin",
+    price: "R$46,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51JMj5S+4qL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "O Homem que Passeava",
+    author: "Jiro Taniguchi",
+    price: "R$48,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51MnWr4yTFL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Os últimos dias de Krypton",
+    author: "Kevin J. Anderson",
+    price: "R$22,00",
+    imageUrl: "https://m.media-amazon.com/images/I/51wY6cw0V2L._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Iniciação à história da Filosofia",
+    author: "Danilo Marcondes",
+    price: "R$34,00",
+    imageUrl: "https://m.media-amazon.com/images/I/51uS3ufStDL._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Essencial Mundo de Oz Box Lacrado",
+    author: "L. Frank Baum",
+    price: "R$14,00",
+    imageUrl: "https://m.media-amazon.com/images/I/818Ikc8kqnS._SY342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Como Morrem os Pobres e outros ensaios",
+    author: "George Orwell",
+    price: "R$28,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51E7+g0BJkS._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "A revolução dos bichos",
+    author: "George Orwell",
+    price: "R$8,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/61owA5ey3iL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "Evangelho de Sangue",
+    author: "Clive Barker",
+    price: "R$35,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51Db0k37tTL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "50 Ideias de economia que você precisa conhecer",
+    author: "Edmund Conway",
+    price: "R$18,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/412AZoC1SdL._SX342_SY445_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "50 Ideias de histórias do mundo que você precisa conhecer",
+    author: "Ian Crofton",
+    price: "R$18,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/417kuBo3W6L._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
+    title: "50 Ideias de filosofia do mundo que você precisa conhecer",
+    author: "Ian Crofton",
+    price: "R$28,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41gXqzYGZjL._SX342_SY445_.jpg",
+    disponivel: "sim",
+  },
+  {
     title: "O Declínio de um Homem",
     author: "Osamu Dazai",
     price: "xx,xx",
@@ -870,13 +1162,6 @@ const bookList = [
     author: "Edgar Allan Poe",
     price: "xx,xx",
     imageUrl: "https://m.media-amazon.com/images/I/61ot+NTV4nL._SY466_.jpg",
-    disponivel: "não",
-  },
-  {
-    title: "Grandes Contos",
-    author: "H.P Lovecraft",
-    price: "xx,xx",
-    imageUrl: "https://m.media-amazon.com/images/I/719HCFvTyvL._SY466_.jpg",
     disponivel: "não",
   },
 ];
