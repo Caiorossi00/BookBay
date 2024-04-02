@@ -144,7 +144,7 @@ const bookList = [
     price: "R$69,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61I4foVI0zL._SY445_SX342_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Contos Gauchescos e Lendas do Sul",
@@ -152,7 +152,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://clandestini.org/wp-content/uploads/2020/08/CONTOS_GAUCHESCOS_E_LENDAS_DO_SUL_1257449886P.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Contos Reunidos",
@@ -229,7 +229,7 @@ const bookList = [
     author: "Ray Bradbury",
     price: "R$28,00",
     imageUrl: "https://m.media-amazon.com/images/I/51tAD6LyZ-L._SY466_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Guerra e Paz: Quadrinhos",
@@ -496,14 +496,14 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/516NYqZI67L._SY445_SX342_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "O Diário de Anne Frank",
     author: "Anne Frank",
     price: "R$8,00",
     imageUrl: "https://m.media-amazon.com/images/I/514tKci6HIL._SY466_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "O Escultor",
@@ -675,7 +675,7 @@ const bookList = [
     author: "Italo Calvino",
     price: "R$8,00",
     imageUrl: "https://m.media-amazon.com/images/I/71cbh+sY+sL._SY466_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Senhora",
@@ -1034,7 +1034,7 @@ const bookList = [
     author: "L. Frank Baum",
     price: "R$14,00",
     imageUrl: "https://m.media-amazon.com/images/I/818Ikc8kqnS._SY342_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Como Morrem os Pobres e outros ensaios",
