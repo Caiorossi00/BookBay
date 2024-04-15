@@ -304,6 +304,14 @@ const bookList = [
     disponivel: "sim",
   },
   {
+    title: "Hellraiser: Renascido do Inferno",
+    author: "Clive Barker",
+    price: "R$48,00",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51gRYU9z8CL._SY445_SX342_.jpg",
+    disponivel: "sim",
+  },
+  {
     title: "Guinness World Records 2010 Games",
     author: "Guiness",
     price: "R$35,00",
@@ -1021,14 +1029,6 @@ const bookList = [
     imageUrl:
       "https://m.media-amazon.com/images/I/61owA5ey3iL._SY445_SX342_.jpg",
     disponivel: "não",
-  },
-  {
-    title: "Evangelho de Sangue",
-    author: "Clive Barker",
-    price: "R$35,00",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/51Db0k37tTL._SY445_SX342_.jpg",
-    disponivel: "sim",
   },
   {
     title: "50 Ideias de economia que você precisa conhecer",
