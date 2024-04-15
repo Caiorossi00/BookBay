@@ -311,14 +311,6 @@ const bookList = [
     disponivel: "sim",
   },
   {
-    title: "Hellraiser: Renascido do Inferno",
-    author: "Clive Barker",
-    price: "R$48,00",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/51gRYU9z8CL._SY445_SX342_.jpg",
-    disponivel: "sim",
-  },
-  {
     title: "Histórias de Bulka",
     author: "Lev Tolstói",
     price: "R$13,00",
@@ -339,7 +331,7 @@ const bookList = [
     price: "R$9,00",
     imageUrl:
       "https://a-static.mlcdn.com.br/800x560/livro-iliada/magazineluiza/228539700/9e11c08aee2cca10e7a147459b39700f.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Iniciação à História da Filosofia",
@@ -533,7 +525,7 @@ const bookList = [
     author: "Oscar Wilde",
     price: "R$8,00",
     imageUrl: "https://livralivro.com.br/uploads/book/img/180/8562287180.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "O Homem que Caiu na Terra",
@@ -807,13 +799,6 @@ const bookList = [
     disponivel: "sim",
   },
   {
-    title: "Na Barreira do Inferno",
-    author: "Silvia Cintra Franco",
-    price: "R$5,00",
-    imageUrl: "https://m.media-amazon.com/images/I/91YQxttVcML._SY342_.jpg",
-    disponivel: "sim",
-  },
-  {
     title: "Globalização",
     author: "Fernando Alcoforado",
     price: "R$4,00",
@@ -850,13 +835,6 @@ const bookList = [
     price: "R$8,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/41pQZn-QpoL._SY445_SX342_.jpg",
-    disponivel: "sim",
-  },
-  {
-    title: "Bruxos e Bruxas",
-    author: "James Patterson",
-    price: "R$9,00",
-    imageUrl: "https://m.media-amazon.com/images/I/61nUygDqxEL._SY342_.jpg",
     disponivel: "sim",
   },
   {
@@ -1042,7 +1020,7 @@ const bookList = [
     price: "R$8,00",
     imageUrl:
       "https://m.media-amazon.com/images/I/61owA5ey3iL._SY445_SX342_.jpg",
-    disponivel: "sim",
+    disponivel: "não",
   },
   {
     title: "Evangelho de Sangue",
