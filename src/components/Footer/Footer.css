@@ -1,0 +1,42 @@
+.container-footer {
+  border-top: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  margin: 1em;
+}
+
+.socials {
+  display: flex;
+  font-size: 1.5em;
+  gap: 1em;
+  align-content: center;
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+  }
+
+  .copy {
+    font-size: 12px;
+    margin: 0em;
+    margin-top: 1em;
+  }
+
+  .socials {
+    display: flex;
+    font-size: 1.2em;
+    align-content: center;
+  }
+}

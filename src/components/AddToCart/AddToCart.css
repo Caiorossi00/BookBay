@@ -1,0 +1,20 @@
+.livro button {
+  border: none;
+  outline: none;
+  background: black;
+  color: white;
+  margin-bottom: 1em;
+  cursor: pointer;
+  font-size: 1em;
+  width: 80%;
+  font-family: inherit;
+  margin-top: 10px;
+  padding: 0.4em 1em;
+  border-radius: 2px;
+}
+
+.livro button:active {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+}

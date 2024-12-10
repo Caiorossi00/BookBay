@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.container-1, .container-2{
+    margin: 0 auto;
+    height: 110vh;
+    display: flex;
+    max-width: 100%; 
+    overflow: hidden; 
+    padding: 2em;
+}
+
+.container-1 {
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+}
+
+.container-2 {
+    flex-direction: row-reverse;
+    background: linear-gradient(to left, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+} 
+
+.esquerda-1 img{
+    min-width: 5%; 
+    height: auto; 
+    margin-top: 10%; 
+    margin-bottom: 1em;
+    max-width: 30%;
+}
+
+.esquerda-2 img {
+    min-width: 50%;
+    height: auto;
+    margin-top: 10%;
+    max-width: 30%;
+}
+
+.container-1 p, .container-2 p{
+    font-size: 1rem; 
+}
+
+.esquerda-1, .esquerda-2 {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    width: 50%;
+}
+
+.esquerda-2 {
+    margin-left: 30%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+}
+
+.texto-esquerda-1,.texto-esquerda-2 {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    max-width: 18em;
+    word-wrap: break-word;
+}
+
+.esquerda-1 h1, .esquerda-2 h1{
+    max-width: 9em;
+}
+
+.esquerda-2 h2 {
+    margin-left: 2em;
+}
+
+.direita-1, .direita-2 {
+    max-width: 40%; 
+    max-height: 20vh;
+    min-width: 40%; 
+}
+
+
+.direita-1 img, .direita-2 img{
+    max-width: 100%;
+    margin-top: 3em;
+    height: auto; 
+    filter: grayscale(100%);
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.direita-2 img {
+    margin-left: 15%;
+}
+
+hr {
+    max-width: 20em;
+}
+
+.container-1, .container-2 {
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .container-1,
+    .container-2 {
+        height: 100vh;
+        margin-top: 10em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-2 {
+        height: 110vh;
+    }
+
+    .container-1 {
+        background: white;
+    }
+
+    .container-2 {
+        background: black;
+        color: white;
+    }
+
+    .esquerda-1,
+    .esquerda-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .direita-1,
+    .direita-2 {
+        width: 100%;
+        max-width: none;
+        max-height: none;
+        min-width: none;
+    }
+
+    .direita-1 img, .direita-2 img{
+        height: 10em;
+    }
+
+    .esquerda-1 img{
+        min-width: 40%; 
+        height: auto; 
+        margin-top: 10%; 
+        margin-bottom: 0;
+        max-width: 30%;
+    }
+    
+    .esquerda-2 img {
+        min-width: 40%;
+        height: auto;
+        margin-top: 10%;
+        max-width: 30%;
+    }
+
+    .esquerda-1 h1, .esquerda-2 h1{
+        font-size: 20px
+    }
+
+    hr {
+        max-width: 20em;
+    }
+
+    .texto-esquerda-1,.texto-esquerda-2 {
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        gap: 1em;
+    }
+}
+
+  
