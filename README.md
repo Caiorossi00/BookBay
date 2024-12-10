@@ -23,6 +23,9 @@ Datas Importantes:
   <li>Atualização 02: 10/12/2024</li>
 </ul>
 
+<h5>Atualizações</h5>
+    <p><strong>Atualização 01:</strong> Manipulação do catálogo</p>
+    <p><strong>Atualização 02:</strong> Reestruturação dos diretórios, ajuste no CSS, ajuste na responsividade, redeploy no Vercel</p>
 
 
 Link: <a href="https://bookbayy.vercel.app">BookBay</a>
