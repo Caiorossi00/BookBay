@@ -20,6 +20,9 @@ Datas Importantes:
   <li>Início: 22/03/2024</li>
   <li>Conclusão: 27/03/2024</li>
   <li>Atualização 01: 28/03/2024</li>
+  <li>Atualização 02: 10/12/2024</li>
 </ul>
 
-Link: <a href="https://bookbayy.netlify.app">BookBay</a>
+
+
+Link: <a href="https://bookbayy.vercel.app">BookBay</a>
