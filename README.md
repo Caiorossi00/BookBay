@@ -22,6 +22,7 @@ Datas Importantes:
   <li>Atualização 01: 28/03/2024</li>
   <li>Atualização 02: 10/12/2024</li>
 </ul>
+<hr>
 
 <h3>Atualizações</h3>
     <p><strong>Atualização 01:</strong> Manipulação do catálogo</p>
