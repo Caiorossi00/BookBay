@@ -1,42 +1,5 @@
 const bookList = [
   {
-    title: "A Rainha Vermelha - Edição de colecionador",
-    author: "Victoria Aveyard",
-    price: "35,00",
-    imageUrl:
-      "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/200040-1000-1000/846757_ampliada.jpg?v=637254405227730000",
-    disponivel: "sim",
-  },
-  {
-    title: "Espada de Vidro",
-    author: "Victoria Aveyard",
-    price: "35,00",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/41+kbxl3HeL._SY445_SX342_.jpg",
-    disponivel: "sim",
-  },
-  {
-    title: "A Droga do Amor",
-    author: "Pedro Bandeira",
-    price: "20,00",
-    imageUrl: "https://m.media-amazon.com/images/I/51uN4xgOn7L._SX445_.jpg",
-    disponivel: "sim",
-  },
-  {
-    title: "Animais Fantásticos e Onde Habitam",
-    author: "J.K. Rowling",
-    price: "35,00",
-    imageUrl: "https://m.media-amazon.com/images/I/91ZsuvQIJjL._SY342_.jpg",
-    disponivel: "sim",
-  },
-  {
-    title: "O poderoso chefão",
-    author: "Mario Puzo",
-    price: "20,00",
-    imageUrl: "https://m.media-amazon.com/images/I/81TajSiaeHL._SY342_.jpg",
-    disponivel: "sim",
-  },
-  {
     title: "1Q84",
     author: "Haruki Murakami",
     price: "R$9,00",
